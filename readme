@@ -1,0 +1,10 @@
+1. create virtualennv
+	virtualenv venv
+2. activate venv
+
+3. pip install -r requirements.txt
+
+4. cd web_scrap
+
+5. python login.py
+
