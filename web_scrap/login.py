@@ -15,9 +15,9 @@ def login_user(driver):
     submit = driver.find_element_by_xpath('//*[@id="Site"]/ngb-modal-window/div/div/ghs-authentication-wizard-modal/div/ghs-authentication-wizard/div/div/div/ghs-sign-in/div/form/div[3]/div/ghs-sign-in-btn/button')
     time.sleep(2)
     username.clear()
-    username.send_keys('vinoddangitcs@gmail.com')
+    username.send_keys('username@email.com')
     password.clear()
-    password.send_keys('password26748')
+    password.send_keys('password')
     submit.send_keys(Keys.RETURN)
     time.sleep(2)
     if 'vinod' in driver.page_source:
